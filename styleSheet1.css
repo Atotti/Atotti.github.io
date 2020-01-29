@@ -3,19 +3,19 @@ h1 {
     color: #ffffff;
     background-color: #00ced1;
 }
-h1:link {
+a:link {
     color: #ffffff;
 }
 
-h1:visited {
+a:visited {
     color: #ffffff;
 }
 
-h1:hover {
+a:hover {
     color: #ffffff;
 }
 
-h1:active {
+a:active {
     color: #ffffff;
 }
 body {
