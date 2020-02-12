@@ -26,7 +26,7 @@ h2:before {
   border-bottom: solid 79px transparent;
   z-index:-2
 }
-.box12{
+p{
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #5989cf;
@@ -34,7 +34,7 @@ h2:before {
     border-bottom: solid 6px #aac5de;
     border-radius: 9px;
 }
-.box12 p {
+p {
     margin: 0; 
     padding: 0;
 }
