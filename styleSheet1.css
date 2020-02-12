@@ -26,7 +26,17 @@ h2:before {
   border-bottom: solid 79px transparent;
   z-index:-2
 }
-
+p {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+p {
+    margin: 0; 
+    padding: 0;
+}
 body {
     background-color: #faebd7;
 }
