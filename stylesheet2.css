@@ -32,13 +32,6 @@ h3{
    position: relative;
   padding: 5px 5px 5px 42px;
 }
-p {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
-    text-align:center;
-}
 body {
   background: #f0fff0;
 }
