@@ -2,15 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>javascript test site</title>
+    <link rel="shortcut icon" href="miku iocn saite.png">
+    <link href="styleSheet1.css" rel="stylesheet" type="text/css">
+    <title>原子番号を覚えようと思って作ったやつ</title>
 </head>
 <body>
+    <h1>原子番号を答えてね！</h1>
+    <p>
     <script language="javascript" type="text/javascript">
         var gennsokigou = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar'];
-        var random = Math.floor(Math.random() * 19);
-        var random_output_ = (gennsokigou[random])
+        var random1 = Math.floor(Math.random() * 19);
+        var random_output_ = (gennsokigou[random1])
+        var ans=random1+1
         document.write(random_output_)
         </script>
+    </p>
     <form id="form1" action="#">
             <input type="text" id="input_message" value="">
                 <input type="button" onclick="func1()" value="送信">
@@ -23,10 +29,14 @@
             var input_message = (gennsokigou[input_message - 1])
             if (input_message == random_output_)
                 document.write("正解！");
-            else
+            else {
                 document.write("不正解！");
+                document.write("正解は" + ans + "でした。")
+            }
                     //document.getElementById("output_message").innerHTML = input_message;
                 }
     </script>
+    Made by Ayusan_
 </body>
 </html>
+
