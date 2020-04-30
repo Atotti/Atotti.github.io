@@ -36,7 +36,11 @@
                 document.write("不正解！".fontsize(7));
                 document.write('<img src=mark_batsu.png alt="不正解">');
                 document.write(("<br>\n正解は" + ans + "でした。").fontsize(7))
-                if (ans == 2) {
+               
+
+        
+            }
+             if (ans == 2) {
                     ans = 18;
                 } else if (2 < ans && ans < 5) {
                     anss = ans - 2
@@ -51,8 +55,6 @@
                 }
                 document.write(("<br>\nちなみに" + random_output_ + "は第" + anss  + "属だってことだけ言っておく").fontsize(7));
                 }
-
-        }
     </script>
     <font size=" 1">Made by Ayusan_</font>
 </body>
