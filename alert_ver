@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="miku iocn saite.png">
+    <link href="stylesheet2.css" rel="stylesheet" type="text/css">
+    <title>原子番号を覚えようと思って作ったやつ</title>
+</head>
+<body>
+    <h1>原子番号を答えてね！</h1>
+    <font size="7">
+        <script language="javascript" type="text/javascript">
+            var gennsokigou = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr'];
+            var random1 = Math.floor(Math.random() * 36);
+            var random_output_ = (gennsokigou[random1])
+            var ans = random1 + 1
+            document.write(random_output_)
+        </script>
+    </font>
+    <form id="form1" action="#">
+        <input type="text" id="input_message" value="">
+        <input type="button" onclick="func1()" value="これに決めた">
+    </form>
+    <div id="output_message"></div>
+    <script language="javascript" type="text/javascript">
+        var $color = $elementReference.style.color;
+        var gennsokigou = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr'];
+        function func1() {
+            var input_message = document.getElementById("input_message").value;
+            var input_message = (gennsokigou[input_message - 1])
+            if (input_message == random_output_) {
+                alert("正解！".fontsize(7));
+                alert('<img src=mark_maru.png alt="正解">');
+            } else {
+                alert("不正解！".fontsize(7));
+                alert('<img src=mark_batsu.png alt="不正解">');
+                alert(("<br>\n正解は" + ans + "でした。").fontsize(7))
+               
+
+        
+            }
+             if (ans == 2) {
+                    ans = 18;
+                } else if (2 < ans && ans < 5) {
+                    anss = ans - 2
+                } else if (4 < ans && ans < 11) {
+                    anss = ans + 8
+                } else if (10 < ans && ans < 13) {
+                    anss = ans - 10
+                } else if( ans > 18) {
+                    anss = ans - 18
+                } else {
+                    anss = ans
+                }
+                alert(("<br>\nちなみに" + random_output_ + "は第" + anss  + "属だってことだけ言っておく").fontsize(7));
+                }
+    </script>
+    <font size=" 1">Made by Ayusan_</font>
+</body>
+</html>
