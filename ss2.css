@@ -2,7 +2,7 @@ body {
    background-color: #486d46;            /* 背景色 */
    background-image: url("siteonlyjpg.jpg"); /* 画像 */
    background-size: cover;               /* 全画面 */
-   background-attachment: fixed;         /* 固定 */
+   /* background-attachment: fixed;          固定 */
    background-position: top;   /* 縦横中央 */
 }
 
